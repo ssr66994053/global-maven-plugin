@@ -132,18 +132,18 @@
                 </snapshotRepository>
             </distributionManagement>
         </profile>
-        <!-- 生产环境 
+        <!-- 生产环境  目前开发环境和测试环境设置相同的配置-->
         <profile>
             <id>online</id>
             <distributionManagement>
                 <snapshotRepository>
                     <id>nexus-snapshot</id>
                     <name>Internal snapshot Repository</name>
-                    <url>http://192.168.45.199:8081/nexus/content/repositories/snapshots/</url>
+                    <url>http://192.168.48.41:8081/nexus/content/repositories/snapshots/</url>
                 </snapshotRepository>
             </distributionManagement>
         </profile>
-        -->
+        
         
     </profiles>
 
