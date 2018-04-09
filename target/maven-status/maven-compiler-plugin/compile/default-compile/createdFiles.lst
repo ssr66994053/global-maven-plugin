@@ -1,3 +1,2 @@
-HelpMojo.class
-com\yiji\maven\DuplicateDependencyCheckerMojo.class
-com\yiji\maven\DuplicateDependencyCheckerMojo$1.class
+com\global\maven\DuplicateDependencyCheckerMojo$1.class
+com\global\maven\DuplicateDependencyCheckerMojo.class
