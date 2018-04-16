@@ -70,6 +70,8 @@
                     <!-- see http://jira.codehaus.org/browse/MNG-5346 -->
                     <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
                 </configuration>
+                
+                <!--  
                 <executions>
                     <execution>
                         <id>mojo-descriptor</id>
@@ -77,7 +79,8 @@
                             <goal>descriptor</goal>
                         </goals>
                     </execution>
-                    <!-- if you want to generate help goal -->
+                -->
+                    <!-- if you want to generate help goal 
                     <execution>
                         <id>help-goal</id>
                         <goals>
@@ -85,6 +88,8 @@
                         </goals>
                     </execution>
                 </executions>
+                -->
+                
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -128,7 +133,7 @@
                 <snapshotRepository>
                     <id>nexus-snapshot</id>
                     <name>Internal snapshot Repository</name>
-                    <url>http://192.168.48.41:8081/nexus/content/repositories/snapshots/</url>
+                    <url>http://152.104.31.139:8081/nexus/content/repositories/snapshots/</url>
                 </snapshotRepository>
             </distributionManagement>
         </profile>
@@ -139,7 +144,7 @@
                 <snapshotRepository>
                     <id>nexus-snapshot</id>
                     <name>Internal snapshot Repository</name>
-                    <url>http://192.168.48.41:8081/nexus/content/repositories/snapshots/</url>
+                    <url>http://152.104.31.139:8081/nexus/content/repositories/snapshots/</url>
                 </snapshotRepository>
             </distributionManagement>
         </profile>
